@@ -279,6 +279,7 @@ ul {
 }
 li {
 	display: list-item;
+	list-style-type:none;
 }
 ol, ul {
 	margin-left: 1.7rem;
@@ -1813,9 +1814,10 @@ header .logo a {
 }
 
 #projects img {
-	opacity: 0.5;
+	opacity: 0.9;
 	transition: all 0.4s;
-	width: 100%
+	width: 100%;
+
 }
 
 #projects img + figcaption {
@@ -1824,7 +1826,7 @@ header .logo a {
 
 #projects figure:focus img,
 #projects figure:hover img {
-	opacity: 1;
+	opacity: 2;
 }
 
 #projects figure:focus figcaption,
